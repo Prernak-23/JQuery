@@ -1,0 +1,21 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+</head>
+<body>
+	<button type="button" class="b1">Click button 1</button>
+	<button type="button" class="b2">Click button 2</button>
+	
+	<script>
+ $(document).on("click",".b1",function()
+ {
+ 	var e = $(".b2");
+ 	e.appendTo(".b1");
+
+ });   
+ 
+    </script>
+    
+</body>
+</html>

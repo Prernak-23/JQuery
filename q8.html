@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  
+</head>
+<body>
+<h3> Click event<br><br></h3>
+
+<script >
+	$(document).ready(function()
+{
+	$("h3").append("<button>Click</button>");
+	$("button").on("click",function()
+{
+	$("h3").html("Click event working now.");
+
+});
+
+});
+</script>	
+    
+</body>
+</html>
